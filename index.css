@@ -1,0 +1,146 @@
+html{
+  scroll-behavior: smooth;
+  background-image: url(pexels-photo-2177482.JPEG);
+padding: 0;
+margin: 0;
+font-family: sans-serif;
+background-size:cover;
+background-attachment: fixed
+}
+
+
+.menu {
+line-height: 50px;
+background-color: rgba(255, 123, 0, 0.507) ; opacity:0.8 ;
+
+}
+.h3{
+    color:white;
+    font-family: monospace;
+    float: right;
+  font-size: 50px;
+ line-height: 2px;
+  text-align: center;
+
+}
+ .h1{
+     color:white;
+     font-family: monospace;
+     float: right;
+   font-size: 90px;
+  
+   text-align: center;
+ }
+ .menu ul li{
+     display: inline-block;
+     list-style: none;
+ }
+ .menu ul li a {
+     text-decoration: none;
+     color: white;
+     font-size:20px ;
+     padding: 5px 20px;
+     
+ }
+
+ .menu ul li:hover {
+   border:  solid white;
+   background-color: tomato;
+ }
+ nav ul li.s{
+   border: 1px  solid white;
+   background-color: tomato;
+ }
+ .box{
+   width: 300px;
+   height: 30pc;
+   position: absolute;
+   top:5em;
+   left:900px;
+   border-radius: 10pc;
+   padding: 25px 30px;
+   background-color:black ;opacity: 0.6;
+   border-bottom: 2px solid white;
+ }
+.b{
+padding:150px 30px;
+border-bottom: 2px solid white;
+}
+
+.box input[type="text"],[type="password"]{
+height: 30px;
+width: 250px;
+border-bottom: 2px solid white;
+font-family: monospace;
+outline: none;
+background: none;
+
+ font-size: 14px;
+ color: white;
+border: none;
+padding: 5px;
+}
+
+
+ input[type="submit"] {
+  
+font-size: 30px;
+color: white;
+width: 130px;
+height: 50ox;
+background-color: rgb(255, 99, 71) ;
+font-family: monospace;
+border-radius: 20px;
+position: relative;
+
+ }
+ input[type="submit"]:hover {
+   background-color:rgb(255, 123, 0,0.507);
+ }
+
+
+a{
+  color: white;
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+ 
+  padding:5px 10px ;
+}
+
+.landing .text{
+  position: absolute;
+left: 0;
+top: 50%;
+transform: translateY(-50%);
+width: 45%;
+padding:30px;
+background-color: rgba(0, 0, 0, 0.541);
+color: white;
+display: flex;
+justify-content: flex-end;
+border-bottom: 2px solid white;
+font-family: monospace;
+font-size: 15px;
+}
+.landing .text:hover{
+  background-color: rgb(255, 123, 0,0.507);
+}
+.landing.text .content{
+
+max-width: 400px;
+}
+.landing.text .content h2{
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  font-family: monospace;
+
+}
+
+
+.landing.text .content p{
+font-size: 14px;
+line-height: 2;
+}
